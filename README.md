@@ -4,5 +4,5 @@ I came across this course in my path to get into AI and Machine Learning. I foun
 # Section 1: Search
 In this section, we delve into Search algorithms. These problems were watered down to a goal and a path to get to that goal. an initial agent does a series of actions to lead closer to a goal state, and a cost is associated with the path to help deriving the optimal path. Using the concepts of breadth-first search, where every path is explored and then an optimized path is found, and depth-first search, where a path is explored all the way to the end and then another path is selected and explored. 
 
-## Degrees Project
+### Degrees Project
 This project was based off of the Six Degrees of Kevin Bacon game. this is a game where anyone in the Hollywood film industry can be connected to Kevin Bacon. So using an API that holds info about the actors and how they connect, This project was built to make students use a search algorithm (In this case I used a breadth-first search). There is the initial state (initial connecting person), goal state (person connecting) and then the transition model (as seen in the code). There also is a set to keep track of explored states to avoid the paradoxical issue with BFS (explained in lecture)
