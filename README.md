@@ -1,2 +1,8 @@
 # HarvardCS50AI
-Projects Completed from taking the HarvardCs50AI Course
+I came across this course in my path to get into AI and Machine Learning. I found this course to be a great introductory course to get into AI with Python. My goal is to use the skills learned from this goal and create some cool unique applications using concepts learned from this class. THe course is split into 5 sections, and in this README, I will be explaining each section and describing the projects I have done in the course. Hope this helps anyone looking to get into the AI field, or if your interested at all in the topics of Intellectual Agents.
+
+# Section 1: Search
+In this section, we delve into Search algorithms. These problems were watered down to a goal and a path to get to that goal. an initial agent does a series of actions to lead closer to a goal state, and a cost is associated with the path to help deriving the optimal path. Using the concepts of breadth-first search, where every path is explored and then an optimized path is found, and depth-first search, where a path is explored all the way to the end and then another path is selected and explored. 
+
+## Degrees Project
+This project was based off of the Six Degrees of Kevin Bacon game. this is a game where anyone in the Hollywood film industry can be connected to Kevin Bacon. So using an API that holds info about the actors and how they connect, This project was built to make students use a search algorithm (In this case I used a breadth-first search). There is the initial state (initial connecting person), goal state (person connecting) and then the transition model (as seen in the code). There also is a set to keep track of explored states to avoid the paradoxical issue with BFS (explained in lecture)
